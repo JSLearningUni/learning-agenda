@@ -1,7 +1,7 @@
 const cool = require('cool-ascii-faces');
 const express = require('express')
 const path = require('path')
-const { Pool } = require('pg');
+const { Pool } = require('pg'); "postgree"
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: {
