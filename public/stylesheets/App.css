@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #34cb79;
+  --title-color: #322153;
+  --text-color: #6c6c80;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:rgb(185, 185, 185);
+  -webkit-font-smoothing: antialiased;
+  color: var(--text-color);
+}
+
+body,
+input,
+button {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-color);
+  font-family: Ubuntu;
+  text-align: center;
+}
+.navbar {
+  border: none;
+}
+
+.nav .active{
+  display: inline;
+}
+
+#navbarEsquerdo{
+  background:#222222;
+  width: 78px;
+  height:120vh;
+  float: left;
+  overflow: auto;
+  margin-top: -30px;
+  border-radius: -100px;
+}
+
+#init{
+  background-color: black;
+  box-shadow: inset 0 0 40px white;
+  height: 100px;
+  margin-top: -20px;
+  width: auto;
+}
+
+#init h1{
+  color: beige;
+  padding-top: 25px;
+}
+
+#rodape{
+  text-align: center;
+  padding-bottom: 100vh;
+}
+
+#painel{
+  background: black;
+  width: 92%;
+  height: 550px;
+  border-radius: 15px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
